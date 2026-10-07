@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.sceneLifecycleApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>A UIKit app with no Main storyboard. SceneDelegate creates the window in code and shows ViewController.</string>
+	<key>Identifier</key>
+	<string>sg.tk.dt.unit.uikitCodeApplication</string>
+	<key>Image</key>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.dt.IDEKit</string>
+		<key>BundleImageName</key>
+		<string>app</string>
+	</dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>NameOfInitialFileForEditor</key>
+	<string>ViewController.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>*:implementation:methods:viewDidLoad:super</key>
+							<string>super.viewDidLoad()
+view.backgroundColor = .systemBackground</string>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+							<string>guard let windowScene = (scene as? UIWindowScene) else { return }
+window = UIWindow(windowScene: windowScene)
+window?.rootViewController = ViewController()
+window?.makeKeyAndVisible()</string>
+							<key>ViewController.swift:preview</key>
+							<string>
+#Preview {
+    ViewController()
+}
+</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>ViewController.swift:comments</string>
+							<string>ViewController.swift:imports:importCocoa</string>
+							<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+							<string>ViewController.swift:preview</string>
+							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
