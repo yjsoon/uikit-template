@@ -1,6 +1,6 @@
 # UIKit App (No Storyboard): an Xcode template
 
-An Xcode project template for UIKit apps that build their screens in code. It's Apple's iOS App template with the storyboard taken out. `SceneDelegate` creates the window and shows `ViewController`, and `ViewController` has a `#Preview` so you can see your changes without running the app.
+An Xcode project template for UIKit apps that build their screens in code. It's Apple's iOS App template with the storyboard taken out. `SceneDelegate` creates the window and shows `ViewController`, and `ViewController` has a `#Preview` so you can see your changes without running the app. Each new project also gets a standard Xcode `.gitignore` in its root folder, so user settings, build products and similar files stay out of git.
 
 We use it in Tinkercademy's iOS in UIKit course. It's made for Xcode 27.
 
