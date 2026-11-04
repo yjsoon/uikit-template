@@ -9,6 +9,16 @@
 	</array>
 	<key>Concrete</key>
 	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>../.gitignore</key>
+		<dict>
+			<key>Path</key>
+			<string>.gitignore</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
 	<key>Description</key>
 	<string>A UIKit app with no Main storyboard. SceneDelegate creates the window in code and shows ViewController.</string>
 	<key>Identifier</key>
@@ -24,6 +34,10 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>NameOfInitialFileForEditor</key>
 	<string>ViewController.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>../.gitignore</string>
+	</array>
 	<key>Options</key>
 	<array>
 		<dict>
